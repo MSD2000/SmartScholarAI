@@ -120,6 +120,7 @@ SmartScholarAI/
 
 ## 🛠 Dependencies
 
+Make sure you have our prepared dataset: https://drive.google.com/file/d/15zcCRoalLWW74Eh2UwyP3ubhzQAyzU4I/view?usp=sharing
 Make sure you have locally deployed Ollama with tinyllama.
 Make sure you have locally downloaded inside the root project folder all-MiniLM-L6-v2 model.
 Make sure you have **Python 3.10+** installed.
