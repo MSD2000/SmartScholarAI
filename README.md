@@ -17,7 +17,7 @@ Each result is displayed as a “card” containing:
 ## 📁 Repository Structure
 
 ```
-SMARTSCHOLAR/
+SmartScholarAI/
 ├── all-MiniLM-L6-v2/             # Optional folder if you store model locally
 ├── app/
 │   └── smart_scholar_ai_v3.py    # Main Streamlit application
