@@ -6,11 +6,13 @@ SmartScholar is a lightweight semantic search interface for ArXiv papers. It all
 2. **Enter keywords or partial titles** to retrieve the top-K most semantically similar papers, powered by the all-MiniLM-L6-v2 SentenceTransformer model.
 
 Each result is displayed as a “card” containing:
-- **Title** (and semantic similarity score, if applicable)
-- **Authors** (each author name links to their Google Scholar profile)
-- **Abstract** (shown in full)
-- **“Read via DOI”** and **“Search on Google Scholar”** links
-- An expandable **“Show additional info”** section revealing metadata such as submitter, comments, journal reference, categories, license, update date, parsed authors, and main category.
+- **Title** (and semantic similarity score, if applicable);
+- **Authors** (each author name is a hyperlink to their Google Scholar profile);
+- **Abstract** (shown in full);
+- **“Read via DOI”** and **“Search on Google Scholar”** hyperlinks;
+- An expandable **“Show additional info”** section revealing metadata such as submitter, comments, journal reference, categories, license, update date, parsed authors, and main category;
+- A help button that uses a locally deployed model (tinyllama) to explain the abstract in simple terms and give keyword examples;
+- Text-to-speech (pyttsx3) for reading the help, as an accessibility option.
 
 ---
 
@@ -54,6 +56,7 @@ SmartScholarAI/
   numpy
   scikit-learn
   sentence-transformers
+  pyttsx3
   ```
 
 - **LICENSE**  
