@@ -66,7 +66,7 @@ SmartScholarAI/
 
 ## 🛠 Dependencies
 
-Make sure you have **Python 3.12+** installed.
+Make sure you have **Python 3.10+** installed.
 
 Install the required libraries with:
 
