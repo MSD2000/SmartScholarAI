@@ -51,12 +51,66 @@ SmartScholarAI/
 - **requirements.txt**  
   A list of required Python packages:
   ```txt
-  streamlit
-  pandas
+  altair
+  attrs
+  blinker
+  cachetools
+  certifi
+  charset-normalizer
+  click
+  colorama
+  comtypes
+  filelock
+  fsspec
+  gitdb
+  GitPython
+  huggingface-hub
+  idna
+  Jinja2
+  joblib
+  jsonschema
+  jsonschema-specifications
+  MarkupSafe
+  mpmath
+  narwhals
+  networkx
   numpy
-  scikit-learn
-  sentence-transformers
+  packaging
+  pandas
+  pillow
+  protobuf
+  pyarrow
+  pydeck
+  pypiwin32
+  python-dateutil
   pyttsx3
+  pytz
+  pywin32
+  PyYAML
+  referencing
+  regex
+  requests
+  rpds-py
+  safetensors
+  scikit-learn
+  scipy
+  sentence-transformers
+  six
+  smmap
+  streamlit
+  sympy
+  tenacity
+  threadpoolctl
+  tokenizers
+  toml
+  torch
+  tornado
+  tqdm
+  transformers
+  typing_extensions
+  tzdata
+  urllib3
+  watchdog
   ```
 
 - **LICENSE**  
@@ -66,6 +120,8 @@ SmartScholarAI/
 
 ## 🛠 Dependencies
 
+Make sure you have locally deployed Ollama with tinyllama.
+Make sure you have locally downloaded inside the root project folder all-MiniLM-L6-v2 model.
 Make sure you have **Python 3.10+** installed.
 
 Install the required libraries with:
