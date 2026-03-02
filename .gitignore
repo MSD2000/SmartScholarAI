@@ -1,0 +1,10 @@
+data/arxiv_dataset.csv
+data/arxiv_full_data_embeddings.npy
+data/arxiv_minilm_embeddings.csv
+data/arxiv_minilm_embeddings.npy
+data/arxiv_scibert_embeddings.csv
+data/arxiv_scibert_embeddings.npy
+data/arxiv_specter_embeddings.csv
+data/arxiv_specter_embeddings.npy
+data/arxiv_tokenized_balanced.csv
+data/arxiv_tokenized_balanced.parquet
