@@ -179,7 +179,7 @@ This will install:
 5. **Launch Streamlit**:
 
    ```bash
-   streamlit run app/app_streamlit.py
+   streamlit run app/smart_scholar_ai_v3.py
    ```
 
 6. **Open your browser**  
