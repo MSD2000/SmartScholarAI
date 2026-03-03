@@ -155,7 +155,7 @@ This will install:
    ```
    SmartScholarAI/
    ├── app/
-   │   └── app_streamlit.py
+   │   └── smart_scholar_ai_v3.py
    └── data/
        ├── arxiv_tokenized_balanced.csv
        └── arxiv_minilm_embeddings.npy
